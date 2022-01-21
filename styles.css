@@ -1,9 +1,82 @@
-body {
-    background-color: hsl(217, 54%, 11%);
-    font-family: ;
-    font-size: 18px
-}
-
-.div {
-    background-color: hsl(216, 50%, 16%)
-}
+    body {
+        background-color: hsl(217, 54%, 11%);
+        font-family: 'Outfit', sans-serif;
+        font-size: 18px;
+    }
+    
+    .card {
+        width: 240px;
+        border-radius: 2%;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    
+    .div {
+        background-color: hsl(216, 50%, 16%);
+        width: 250px;
+        border-radius: 4%;
+        margin: auto;
+        margin-top: 80px;
+        padding: 15px 15px 15px 15px;
+    }
+    
+    h4 {
+        color: hsl(0, 0%, 100%);
+        font-weight: 600;
+        margin: 18px 0 18px 0;
+    }
+    
+    p {
+        color: hsl(215, 51%, 70%);
+        font-weight: 300;
+        text-align: center;
+        margin: 15px 0 15px 0;
+    }
+    
+    .avatar {
+        position: relative;
+        right: 9px;
+        width: 30px;
+        border: 2px solid white;
+        border-radius: 100%;
+        margin: auto;
+    }
+    
+    hr {
+        border-color: hsl(215, 32%, 27%);
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .creator {
+        height: 34px;
+        position: relative;
+        top: 10px;
+        color: hsl(215, 51%, 70%);
+        font-weight: 300;
+        text-align: center;
+    }
+    
+    .creator-span {
+        display: inline-block;
+        position: relative;
+        right: 5px;
+        bottom: 12px;
+        font-size: 18px;
+    }
+    
+    .creator-img {
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .eth {
+        color: hsl(178, 100%, 50%);
+    }
+    
+    .days-left {
+        color: hsl(215, 51%, 70%);
+        margin-left: 47px;
+    }
+    
+    .attribution {
+        margin-top: 10px;
+    }
