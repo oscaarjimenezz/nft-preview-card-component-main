@@ -6,7 +6,7 @@
         font-size: 18px;
     }
     
-    .div {
+    .card {
         background-color: hsl(216, 50%, 16%);
         width: 350px;
         border-radius: 3%;
@@ -15,14 +15,14 @@
         padding: 25px 25px 25px 25px;
     }
     
-    .card {
+    .card-div__img {
         position: relative;
         width: 350px;
         border-radius: 2%;
         z-index: 1;
     }
     
-    .div-view {
+    .card-div__icon {
         width: 350px;
         height: 350px;
         border-radius: 2%;
@@ -45,11 +45,11 @@
         margin: 15px 0 15px 0;
     }
     
-    .p {
+    .card-content__p {
         padding: 10px;
     }
     
-    .avatar {
+    .card-creator__img {
         position: relative;
         right: 58px;
         width: 30px;
@@ -72,7 +72,7 @@
         text-align: center;
     }
     
-    .creator-span {
+    .card-creator__span {
         display: inline-block;
         position: relative;
         right: 45px;
@@ -80,25 +80,25 @@
         font-size: 18px;
     }
     
-    .creator-img {
+    .card-creator__span--name {
         color: hsl(0, 0%, 100%);
     }
     
-    .eth {
+    .card-content__span {
         color: hsl(178, 100%, 50%);
     }
     
-    .eth-svg {
+    .card-content__span svg {
         position: relative;
         top: 2.5px;
     }
     
-    .days-left {
+    .card-content__span--2 {
         color: hsl(215, 51%, 70%);
         margin-left: 147px;
     }
     
-    .days-left-svg {
+    .card-content__span--2 svg {
         position: relative;
         top: 3px;
     }
@@ -107,7 +107,7 @@
         margin-top: 10px;
     }
     
-    .view {
+    .card-div__icon--view {
         position: absolute;
         top: 43.15%;
         right: 43.15%;
@@ -119,12 +119,12 @@
         cursor: pointer;
     }
     
-    .creator-img:hover {
+    .card-creator__span--name:hover {
         color: hsl(178, 100%, 50%);
         cursor: pointer;
     }
     
-    .div-view:hover {
+    .card-div__icon:hover {
         background-color: hsl(178, 100%, 50%);
         opacity: 50%;
         cursor: pointer;
