@@ -17,18 +17,14 @@
     
     .card {
         position: relative;
-        width: 340px;
+        width: 350px;
         border-radius: 2%;
-        margin-left: 5px;
-        margin-top: 5px;
         z-index: 1;
     }
     
     .div-view {
-        width: 340px;
-        height: 340px;
-        margin-left: 5px;
-        margin-top: 5px;
+        width: 350px;
+        height: 350px;
         border-radius: 2%;
         position: absolute;
         z-index: 10;
