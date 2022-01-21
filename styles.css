@@ -8,7 +8,7 @@
     
     .card {
         background-color: hsl(216, 50%, 16%);
-        width: 350px;
+        width: 280px;
         border-radius: 3%;
         margin: auto;
         margin-top: 80px;
@@ -17,14 +17,14 @@
     
     .card-div__img {
         position: relative;
-        width: 350px;
+        width: 280px;
         border-radius: 2%;
         z-index: 1;
     }
     
     .card-div__icon {
-        width: 350px;
-        height: 350px;
+        width: 280px;
+        height: 280px;
         border-radius: 2%;
         position: absolute;
         z-index: 10;
@@ -51,7 +51,7 @@
     
     .card-creator__img {
         position: relative;
-        right: 58px;
+        right: 23px;
         width: 30px;
         border: 2px solid white;
         border-radius: 100%;
@@ -75,7 +75,7 @@
     .card-creator__span {
         display: inline-block;
         position: relative;
-        right: 45px;
+        right: 20px;
         bottom: 12px;
         font-size: 18px;
     }
@@ -95,7 +95,7 @@
     
     .card-content__span--2 {
         color: hsl(215, 51%, 70%);
-        margin-left: 147px;
+        margin-left: 77px;
     }
     
     .card-content__span--2 svg {
@@ -103,14 +103,14 @@
         top: 3px;
     }
     
-    .attribution {
-        margin-top: 10px;
-    }
-    
     .card-div__icon--view {
         position: absolute;
         top: 43.15%;
         right: 43.15%;
+    }
+    
+    .attribution {
+        margin-top: 10px;
     }
     /* active styles*/
     
