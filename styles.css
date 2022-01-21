@@ -1,3 +1,5 @@
+    /* main styles*/
+    
     body {
         background-color: hsl(217, 54%, 11%);
         font-family: 'Outfit', sans-serif;
@@ -5,10 +7,24 @@
     }
     
     .card {
+        position: relative;
         width: 240px;
         border-radius: 2%;
         margin-left: 5px;
         margin-top: 5px;
+        z-index: 1;
+    }
+    
+    .div-view {
+        width: 240px;
+        height: 240px;
+        margin-left: 5px;
+        margin-top: 5px;
+        border-radius: 2%;
+        position: absolute;
+        z-index: 10;
+        opacity: 0;
+        transition: all 1s;
     }
     
     .div {
@@ -29,7 +45,7 @@
     p {
         color: hsl(215, 51%, 70%);
         font-weight: 300;
-        text-align: center;
+        text-align: left;
         margin: 15px 0 15px 0;
     }
     
@@ -72,11 +88,44 @@
         color: hsl(178, 100%, 50%);
     }
     
+    .eth-svg {
+        position: relative;
+        top: 2.5px;
+    }
+    
     .days-left {
         color: hsl(215, 51%, 70%);
         margin-left: 47px;
     }
     
+    .days-left-svg {
+        position: relative;
+        top: 3px;
+    }
+    
     .attribution {
         margin-top: 10px;
+    }
+    
+    .view {
+        position: absolute;
+        top: 40%;
+        right: 40%;
+    }
+    /* active styles*/
+    
+    h4:hover {
+        color: hsl(178, 100%, 50%);
+        cursor: pointer;
+    }
+    
+    .creator-img:hover {
+        color: hsl(178, 100%, 50%);
+        cursor: pointer;
+    }
+    
+    .div-view:hover {
+        background-color: hsl(178, 100%, 50%);
+        opacity: 50%;
+        cursor: pointer;
     }
